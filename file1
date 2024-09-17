@@ -5,6 +5,12 @@ int factoriel(int n) {
   else {return (n*factoriel(n-1));}
 }
 
+void init_tab(int* tab, int n) {
+  for(int i = 1; i < n; i++) {
+    tab[i] = i;
+  }
+}
+
 int main() {
   return 0;
 }
